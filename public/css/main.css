@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+.disciplines{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #3e3e6c;
+    padding: 1rem;
+}
+
+.disciplines > .game{
+    background-color: #65658b;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+    border-radius: 15px;
+}

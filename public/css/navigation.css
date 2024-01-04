@@ -1,0 +1,28 @@
+.navigation{
+    background-color: #2a2a4b;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navigation li{
+    margin-right: 1rem;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+}
+
+.navigation a:hover{
+    background-color: rgb(73, 80, 145);
+}
