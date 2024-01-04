@@ -17,6 +17,8 @@
 
 .navigation a{
     text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
     color: #fff;
     padding: 10px;
     border-radius: 5px;
