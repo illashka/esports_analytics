@@ -1,5 +1,6 @@
 body, html{
     height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -7,6 +8,7 @@ body, html{
 .disciplines{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     background-color: #3e3e6c;
     padding: 1rem;
     height: 100%;
@@ -16,6 +18,10 @@ body, html{
 
 .disciplines > .game{
     background-color: #65658b;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #323e62;
+    padding: 20px;
     text-align: center;
     font-size: 30px;
     margin: 5px;
@@ -31,3 +37,4 @@ body, html{
     font-family: sans-serif;
     color: white;
 }
+
